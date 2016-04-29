@@ -1,7 +1,7 @@
 define([], function(){
     return {
-        "icon": "images/jb-icon.jpg",
-        "iconSmall": "images/jb-icon.jpg",
+        "icon": "images/icon.jpg",
+        "iconSmall": "images/iconSmall.jpg",
         "key": "jb-hello-world-activity-zakaria",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {

@@ -1,5 +1,7 @@
 {
     "key": "jb-hello-world-zakaria",
+    "icon": "images/icon.jpg",
+    "iconSmall": "images/iconSmall.jpg",
     "lang": {
         "en-US": {
             "name": "Hello World 2",
