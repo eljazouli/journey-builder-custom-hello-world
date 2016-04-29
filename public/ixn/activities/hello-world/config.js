@@ -1,11 +1,11 @@
-define([], function(){      
+define([], function(){
     return {
         "icon": "images/jb-icon.jpg",
-        "iconSmall": "images/jb-icon.jpg", 
-        "key": "jbdev-ixn-api-v1-test-harness-activity",
+        "iconSmall": "images/jb-icon.jpg",
+        "key": "jb-hello-world-activity-zakaria",
         "partnerApiObjectTypeId": "IXN.CustomActivity.REST",
         "lang": {
-            "en-US": {        
+            "en-US": {
                 "name": "Hello World Activity 2",
                 "description": "Activity simply posts the data into an array for display on the App's home page."
             }
