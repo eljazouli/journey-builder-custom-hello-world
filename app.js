@@ -15,10 +15,10 @@ var app = express();
 // Register configs for the environments where the app functions
 // , these can be stored in a separate file using a module like config
 var APIKeys = {
-    appId           : '__insert_your_app_id__',
-    clientId        : '__insert_your_app_client_id__',
-    clientSecret    : '__insert_your_app_client_secret__',
-    appSignature    : '__insert_your_app_signature__',
+    appId           : '7b135a8e-d7e8-4f9e-a3a3-07369f0b0b00',
+    clientId        : '91l83nusg9mrwymckhbs3zy2',
+    clientSecret    : 'e3ZTZCuPQHMxtJeWbhuMz1K4',
+    appSignature    : 'pcqa31kdejyuf55d4un35t1btz4qf3ymgybwoptqfghitqjb20y2mqfi2tmrfu4icmbki34x0v32gyal41wliwh2wjj3h3l1cycvrb3xovpv4u0t3vato324eyr2dzcvdvpjm42rfd2cybjuk4rxoajosaeb1iextgadlrza4ao2an0ymbdcoqqxhd4ze3lmozftsd4ajwppd2ykjkqbuakrrag30syk0b2dtj0lo24awyl1ytihwftwdyl0m4f',
     authUrl         : 'https://auth.exacttargetapis.com/v1/requestToken?legacy=1'
 };
 
@@ -26,7 +26,7 @@ var APIKeys = {
 function tokenFromJWT( req, res, next ) {
     // Setup the signature for decoding the JWT
     var jwt = new JWT({appSignature: APIKeys.appSignature});
-    
+
     // Object representing the data in the JWT
     var jwtData = jwt.decode( req );
 
